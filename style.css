@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(18, 22, 34);
+    height: 178px;
+    width: 100%;
+    box-shadow: 0px 10px 25px #08211e;
+}
+
+footer {
+    display: flex;
+    margin: auto;
+}
+
+.FormsPosition {
+    display: flex;
+    flex-flow: column;
+}
+
+.login-container {
+    margin-top: 50px;
+    display: flex;
+    background-color: aliceblue;
+    padding: 100px;
+    border-radius: 15px;
+    text-align: center;
+    color: #ff4553;
+    font-family: 'VALORANT', sans-serif;
+    flex-flow: column;
+}
+
+.Cum {
+    text-align: center;
+    color: #ff4553;
+    font-family: 'VALORANT', sans-serif;
+}
+
+.TextVava {
+    margin-top: 15px;
+    color: #ff4553;
+    font-family: 'VALORANT', sans-serif;
+    text-shadow: 2px 2px 2px#08211e;
+}
+
+.General {
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    background-color: rgba(117, 107, 129, 0.6);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.Midea {
+    float: left;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 10px;
+    font-family: 'VALORANT', sans-serif;
+    box-shadow: 0px 1px 2px #08211e;
+}
+
+.produto {
+    display: flex;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    justify-content: space-between;
+}
+
+.descrição-produto {
+    display: flex;
+    font-family: 'Bebas Neue', cursive;
+    flex-flow: column;
+}
+
+.btn-comprar {
+    background-color: #ff4553;
+    border-radius: 50px;
+    font-family: 'VALORANT', sans-serif;
+    padding: 25px;
+    box-shadow: 0px 10px 25px #08211e;
+}
+
+.ImgProd {
+    border-radius: 50px;
+    box-shadow: 0px 1px 5px #08211e;
+}
+
+.forgot-password {
+    margin-top: 10px;
+}
+
+.input-wrapper {
+    display: inline-block;
+    position: relative;
+    margin-top: 5px;
+}
+
+#player {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#Nav {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#name {
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 1px 2px #08211e;
+}
+
+#cpf {
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 1px 2px #08211e;
+}
+
+#email {
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 1px 2px #08211e;
+}
+
+#password {
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 1px 2px #08211e;
+}
+
+#confirm-password {
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 1px 2px #08211e;
+}
+
+#data-aniversario {
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 1px 2px #08211e;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+
+/* 3D Slideshow */
+#slideshow {
+    margin: auto;
+    padding-top: 25px;
+    height: 475px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.entire-content {
+    margin: auto;
+    width: 200px;
+    perspective: 1000px;
+    position: relative;
+    padding-top: 80px;
+}
+
+.content-carrousel {
+    width: 100%;
+    position: absolute;
+    float: right;
+    animation: rotar 40s infinite linear;
+    transform-style: preserve-3d;
+}
+
+.content-carrousel:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+.content-carrousel figure {
+    width: 100%;
+    height: 120px;
+    border: 1px solid #3b444b;
+    overflow: hidden;
+    position: absolute;
+}
+
+.content-carrousel figure:nth-child(1) {
+    transform: rotateY(0deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(2) {
+    transform: rotateY(40deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(3) {
+    transform: rotateY(80deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(4) {
+    transform: rotateY(120deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(5) {
+    transform: rotateY(160deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(6) {
+    transform: rotateY(200deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(7) {
+    transform: rotateY(240deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(8) {
+    transform: rotateY(280deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(9) {
+    transform: rotateY(320deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(10) {
+    transform: rotateY(360deg) translateZ(300px);
+}
+
+.shadow {
+    position: absolute;
+    box-shadow: 0px 0px 10px 0px #08211e;
+    border-radius: 3px;
+}
+
+.content-carrousel img {
+    image-rendering: 100%;
+    transition: all 300ms;
+    width: 100%;
+    height: 100%;
+}
+
+.content-carrousel img:hover {
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+
+@keyframes rotar {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
